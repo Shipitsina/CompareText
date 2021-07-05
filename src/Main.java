@@ -86,7 +86,7 @@ public class Main {
             for (int i = 0; i < countBegins; i++) {
                 if (begins[i].equals(ends[countBegins-i-1]))
                     b = true;
-                else b = false;
+                else return false;
                 }
             }
             return b;
